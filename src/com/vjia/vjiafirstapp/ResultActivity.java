@@ -24,7 +24,7 @@ public class ResultActivity extends Activity {
 			Builder alert = new AlertDialog.Builder(this);
 			// question 1: how to add an drawable-icon
 			alert.setIcon(R.drawable.ic_launcher).setTitle("Result Activity inner")
-				.setMessage("Press Enter to Return").setPositiveButton("OK", new OnClickListener(){
+				.setMessage("Target done. \n Press Enter to Return").setPositiveButton("OK", new OnClickListener(){
 
 					@Override
 					public void onClick(DialogInterface arg0, int arg1) {
